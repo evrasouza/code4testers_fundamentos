@@ -8,7 +8,7 @@ x = 1
   x = x + 1
 end
 
-bandas = ["Aerosmith", "Iron Maiden", "Bon Jovi", "Ozzy Osbourne"]
+bandas = ["Aerosmith", "Iron Maiden", "Bon Jovi", "Ozzy Osbourne", "Raimundos", "CPM"]
 
 puts bandas.size
 
@@ -16,4 +16,10 @@ y = 0
 bandas.size.times do
   puts bandas[y]
   y = y + 1
+end
+
+# utilizando o each
+
+bandas.each do |banda|
+  puts banda
 end
